@@ -1,0 +1,26 @@
+
+.calendar-component{
+    z-index: 50;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    opacity: 1;
+    transition:0.7s ;
+    left: 0;
+}
+
+.calendar-component-body{
+    width:1000px;
+    height:60%;
+    background-color: #374151;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
